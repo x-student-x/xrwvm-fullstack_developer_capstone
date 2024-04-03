@@ -8,7 +8,7 @@ from .restapis import get_request, analyze_review_sentiments, post_review
 app_name = 'djangoapp'
 urlpatterns = [
     # path for registration
-    path(route='register', view=views.login_user, name='register'),
+    path(route='registration', view=views.login_user, name='registration'),
 
     # path for login
     path(route='login', view=views.login_user, name='login'),
