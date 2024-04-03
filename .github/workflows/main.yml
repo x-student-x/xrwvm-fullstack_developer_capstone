@@ -1,5 +1,4 @@
 name: 'Lint Code'
-/*jshint esversion: 8 */
 on:
   push:
     branches: [master, main]
